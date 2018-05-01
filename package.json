@@ -1,23 +1,25 @@
 {
   "name": "karanchatapp",
-  "version": "1.0.0",
-  "description": "socket.io",
+  "version": "0.0.0",
+  "description": "A simple chat client using socket.io",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Grant Timmerman",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "express": "^4.15.2"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karanbalaji/karanchatapp.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/karanbalaji/karanchatapp/issues"
   },
-  "homepage": "https://github.com/karanbalaji/karanchatapp#readme",
-  "dependencies": {
-    "express": "^4.15.2"
-  }
+  "homepage": "https://github.com/karanbalaji/karanchatapp#readme"
 }
